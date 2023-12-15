@@ -2,6 +2,8 @@ import Header from "../components/Header";
 import MenuLateral from "../components/MenuLateral";
 import aki from "../images/homePrints/akiHome.jpeg"
 import gojo from "../images/homePrints/gojoHome.jpeg"
+import ig from "../images/igColor.svg"
+import twitter from "../images/twitterColor.svg"
 
 export default function Home(){
   return(
@@ -13,9 +15,11 @@ export default function Home(){
         <img src={aki} alt="" className="side-image" />
         <div className="centralized-text">
           <h2>Hi!</h2>
-          <h2>My name is Arisha,<br />
-            I'm from Russia and I love <br />
-            doing anime fanarts for you!</h2>
+          <h2>Me chamo fellype,<br /> e amo fazer arte e fanarts,<br /> e aqui você pode adquirir <br /> produtos do meu trabalho! <br />
+             espero que eles chamem <br /> a atenção de vocês!!</h2>
+          <h3>Entre em contato pelas redes sociais:</h3>
+          <a href="https://www.instagram.com/drawing.felps/" target="_blank"><img src={ig} className="socialIcon" /></a> 
+          <a href="https://x.com/drawingfelps?s=20" target="_blank"><img src={twitter} className="socialIcon" /></a>
         </div>
         <img src={gojo} alt="" className="side-image" />
       </div>

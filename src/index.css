@@ -52,6 +52,7 @@ footer{
 
 
 
+
 /* ------------------------------------------------------------------------------------------ */
 
 /* Menu Lateral */
@@ -108,6 +109,7 @@ footer{
 
 
 
+
 /* --------------------------------------------------------------------------------------------- */
 
 /* Prints */
@@ -126,10 +128,38 @@ footer{
   justify-content: space-evenly;
 
 }
+.image{
+  position: relative;
+}
+
+.content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s;
+  background-color: #a38f8f;
+}
+
+.content:hover{
+  opacity: 1;
+}
 
 .print{
   height: auto;
-  width: 280px;
+  width: 250px;
 }
+
+.content p{
+    font-size: 3rem;
+    color: #000000;
+
+}
+
 
 /* --------------------------------------------------------------------------------------------- */
