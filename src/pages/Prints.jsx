@@ -19,7 +19,9 @@ import sona from "../images/prints/sona.jpeg"
 export default function Prints(){
   const largeImage = {
     width:"380px"
+    
   }
+ 
 
   
   return(
@@ -27,7 +29,7 @@ export default function Prints(){
       <Header />
         <div className="left-column">
       <MenuLateral />
-        <h1 className="title-prints">Avaiable Prints</h1>
+        <h1 className="title-prints">Algumas Artes</h1>
           <div className="container-prints">
               <div className="image">
                      <img src={aki} className="print" alt="" />
@@ -112,12 +114,7 @@ export default function Prints(){
               </div>
           </div>
           <div className="container-prints">
-              <div className="image">
-                     <img src={power} className="print" alt="" style={largeImage}/>
-                    <div className="content">
-                      <p>Power</p>
-                   </div>
-                </div>
+
               <div className="image">
                      <img src={quanxi} className="print" alt="" />
                     <div className="content">
@@ -131,6 +128,15 @@ export default function Prints(){
                    </div>
               </div>
           </div>
+          <div className="container-prints large" >
+          <div className="image">
+                     <img src={power} className="largeImage print " alt="" style={largeImage}/>
+                    <div className="content">
+                      <p>Power</p>
+                   </div>
+                </div>
+          </div>
+
 
 
           </div>
