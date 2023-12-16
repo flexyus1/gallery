@@ -14,7 +14,7 @@ export default function Home(){
       <div className="container-home">
         <img src={aki} alt="" className="side-image" />
         <div className="centralized-text">
-          <h2>Hi!</h2>
+          <h2>Oi!</h2>
           <h2>Me chamo fellype,<br /> e amo fazer arte e fanarts,<br /> e aqui você pode adquirir <br /> produtos do meu trabalho! <br />
              espero que eles chamem <br /> a atenção de vocês!!</h2>
           <h3>Entre em contato pelas redes sociais:</h3>

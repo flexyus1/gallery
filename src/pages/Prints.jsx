@@ -29,7 +29,7 @@ export default function Prints(){
       <Header />
         <div className="left-column">
       <MenuLateral />
-        <h1 className="title-prints">Algumas Artes</h1>
+        <h1 className="title-prints">Ilustrações</h1>
           <div className="container-prints">
               <div className="image">
                      <img src={aki} className="print" alt="" />
@@ -82,7 +82,7 @@ export default function Prints(){
               <div className="image">
                      <img src={makina} className="print" alt="" />
                     <div className="content">
-                      <p>Makina</p>
+                      <p>Makima</p>
                    </div>
               </div>
               <div className="image">

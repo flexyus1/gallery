@@ -39,15 +39,15 @@ footer{
 .nav-link{
   color: #000000;
   font-size: 4rem;
+  font-weight: 600;
   text-decoration: none;
-  font-weight: 540;
   transition: 0.3s;
 
 }
 
 .nav-link:hover{
   transform: scale(1.1);
-  color: aqua;
+  color: rgb(30, 16, 231);
 }
 
 
