@@ -19,7 +19,7 @@ body{
 
 footer{
   height: 15rem;
-  background-color: #000000;
+  background-color: rgb(104, 97, 89);
   
 }
 
@@ -107,6 +107,8 @@ footer{
   margin-right: 4rem;
 }
 
+
+
 @media (max-width:1179px) {
   .side-image{
     height: 40rem;
@@ -187,10 +189,12 @@ footer{
   margin-top: 7rem;
   margin-bottom: 8rem;
   justify-content: space-evenly;
+  background-color: #fff;
 
 }
 .image{
   position: relative;
+  background-color: #fff;
 }
 
 .content{
@@ -223,14 +227,25 @@ footer{
 
 }
 
+.lacuna{
+
+  border-left: 100px solid  rgb(104, 97, 89);
+  border-right: 100px solid rgb(104, 97, 89);
+
+}
+
 @media (max-width: 973px){
   .print{
     height: 28rem;
     width: 21rem;
   }
+  .lacuna{
+    border-left: 65px solid rgb(104, 97, 89);
+    border-right: 65px solid rgb(104, 97, 89);
+  }
 }
 
-@media (max-width: 760px){
+@media (max-width: 779px){
   .print{
     height: 24rem;
     width: 17rem;
@@ -238,6 +253,10 @@ footer{
   .largueImage{
     height: 26rem;
     width: 9rem;
+  }
+  .lacuna{
+    border-left: 40px solid rgb(104, 97, 89);
+    border-right: 40px solid rgb(104, 97, 89);
   }
 }
 @media (max-width: 592px){
@@ -248,6 +267,11 @@ footer{
   height: 36rem;
   width: 32rem;
  }
+ .lacuna{
+  border-left: 45px solid rgb(104, 97, 89);
+  border-right: 45px solid rgb(104, 97, 89);
+}
+ 
 }
 @media (max-width: 474px){
   body{
@@ -259,6 +283,13 @@ footer{
   .print{
    height: 34rem;
    width: 30rem;
+  }
+ 
+ }
+ @media (max-width: 414px){
+  .lacuna{
+    border-left: 0px solid #fff;
+    border-right: 0px solid #fff;
   }
  
  }

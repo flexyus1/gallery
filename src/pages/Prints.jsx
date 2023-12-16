@@ -7,7 +7,7 @@ import ariel from "../images/prints/ariel.jpeg"
 import choso from "../images/prints/choso.jpeg"
 import fushiguro from "../images/prints/fushiguro.jpeg"
 import jinx from "../images/prints/jinx.jpeg"
-import makina from "../images/prints/makina.jpeg"
+import makima from "../images/prints/makima.jpeg"
 import nobara from "../images/prints/nobara.jpeg"
 import nobaraTwo from "../images/prints/nobara2.jpeg"
 import power from "../images/prints/power.jpeg"
@@ -29,6 +29,7 @@ export default function Prints(){
       <Header />
         <div className="left-column">
       <MenuLateral />
+      <div className="lacuna">
         <h1 className="title-prints">Ilustrações</h1>
           <div className="container-prints">
               <div className="image">
@@ -80,7 +81,7 @@ export default function Prints(){
                    </div>
                 </div>
               <div className="image">
-                     <img src={makina} className="print" alt="" />
+                     <img src={makima} className="print" alt="" />
                     <div className="content">
                       <p>Makima</p>
                    </div>
@@ -136,11 +137,11 @@ export default function Prints(){
                    </div>
                 </div>
           </div>
+         <footer></footer>
+         </div>
+        </div>{/*lacuna*/} 
 
 
-
-          </div>
-      <footer></footer>
     </>
   )
 }
